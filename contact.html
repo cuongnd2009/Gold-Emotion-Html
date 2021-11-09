@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-TileColor" content="#B4DFF6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gold Emotion</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header class="header fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 logo text-center">
+                    <a href="/index.html">
+                        <img src="/images/svg/logo.svg" alt="">
+                        <h1 class="text-center">
+                            GOLD EMOTION
+                            <p class="active w-4 text-center">V I E T N A M</p>
+                        </h1>
+                    </a>
+                </div>
+                <div class="menu col-lg-7">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="/index.html" class="nav-link">Trang chủ</a></li>
+                        <li class="nav-item"><a href="/gold-emotion.html" class="nav-link">Gold Emotion</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button">Sản phẩm</a>
+                            <div class="dropdown-content">
+                                <a class="w-6" href="/product.html">Sâm - Panh</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="/gold-emotion-lux.html" class="nav-link">Gold Emotion Lux</a></li>
+                        <li class="nav-item"><a href="/cooperate.html" class="nav-link">Hợp tác</a></li>
+                        <li class="nav-item"><a href="/contact.html" class="nav-link active">Liên Hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 locale text-center">
+                    <ul class="nav justify-content-center">
+                        <li><a href="#" class="nav-link px-2 active">VN</a></li>
+                        <li><a href="#" class="nav-link px-2">EN</a></li>
+                    </ul>
+                    <button class="btn">SỐ HOTLINE</button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="contact">
+            <div class="container">
+                <div class="row text-center">
+                    <h6 class="w-5 fs-20">
+                        LIÊN LẠC VỚI CHÚNG TÔI
+                    </h6>
+                    <p class="w-6 fs-14">
+                        Mọi thông tin về sản phẩm, dịch vụ Quý khách xin vui lòng liên hệ với chúng tôi
+                        theo hotline ___ hoặc để lại thông tin để Gold Emotion giúp Quý khách.
+                    </p>
+                    <div class="pt-4">
+                        <button class="fs-17 btn" id="show-modal">Để lại thông tin</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="location mt-5 mb-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6263.32646572472!2d105.84160502790947!3d21.02483422193723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab88201d5c57%3A0xf16321bf26f6ba4!2sPacific%20Place!5e0!3m2!1svi!2s!4v1636534212290!5m2!1svi!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="form-contact">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="w-7 fs-24">Thông tin khách hàng</h6>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 pb-3">
+                            <input type="text" class="form-control" placeholder="Họ và tên">
+                        </div>
+                        <div class="col-lg-6 pb-3">
+                            <input type="text" class="form-control" placeholder="Số điện thoại">
+                        </div>
+                        <div class="col-12 pb-3">
+                            <input type="text" class="form-control" placeholder="Địa chỉ">
+                        </div>
+                        <div class="col-12 pb-3">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="" class="form-control" cols="30" rows="5" placeholder="Ghi chú ..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-4">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close-form-contact">Close</button> -->
+                    <button type="button" class="btn btn-warning">Gửi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row company">
+                <div class="col-lg-8">
+                    <h1 class="w-6">CÔNG TY CỔ PHẦN CONSORTIO VIỆT NAM</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="address row">
+                        <p class="title">Địa chỉ</p>
+                        <p class="detail">Tầng 12, toà nhà Pacific Place, 83b Lý Thường Kiệt, P.Trần Hưng Đạo, Q.Hoàn
+                            Kiếm, Tp.Hà Nội</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="title">Email</p>
+                            <p class="detail active">admin@consortio.services</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="title">Hotline</p>
+                            <p class="detail active">(+84) 24 62 69 1686</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-12"></div>
+                    <div class="col-12 text-center">
+                        <ul class="nav justify-content-center">
+                            <li><a href="#" class="px-2"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" class="px-2"><i class="fas fa-info-circle"></i></a></li>
+                            <li><a href="#" class="px-2"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="px-2"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <p class="title pt-4">
+                            Copyright © 2020 Consortio Services. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $( document ).ready(function() {
+        $('#show-modal').click(() => {
+            $('#form-contact').modal('toggle')
+        })
+    });
+</script>

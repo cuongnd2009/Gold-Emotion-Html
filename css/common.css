@@ -1,0 +1,443 @@
+html .container,
+body .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+html a:hover,
+html a:focus,
+body a:hover,
+body a:focus {
+    text-decoration: none;
+}
+
+body .container {
+    max-width: 1460px;
+}
+
+html img,
+body img {
+    max-width: 100%;
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+a {
+    color: #7E7E84;
+    text-decoration: none;
+}
+
+button.default {
+    background-color: #000000;
+    color: #FFF;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+
+
+button.default:hover {
+    color: #FFF;
+}
+
+.text-df {
+    color: #8C734B;
+}
+
+.w-4 {
+    font-weight: 400;
+}
+
+.w-5 {
+    font-weight: 500;
+}
+
+.w-6 {
+    font-weight: 600;
+}
+
+.w-7 {
+    font-weight: 700;
+}
+
+.noto_serif {
+    font-family: NotoSerif;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* header */
+.header {
+    background-color: #000000;
+    text-align: center;
+    height: 60px;
+}
+
+.header .row {
+    padding-top: 10px;
+}
+
+.header .logo {
+    text-align: right;
+}
+
+.header .logo img {
+    height: 40px;
+    position: relative;
+    top: -13px;
+}
+
+.header .logo h1 {
+    font-size: 25px;
+    color: #FFF;
+    display: inline-block;
+    margin: 0px;
+}
+
+.header .logo p {
+    font-size: 10px;
+    margin: 0px;
+    padding-top: 3px;
+    word-spacing: 4px;
+}
+
+.header div.menu ul li a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header div.menu a:hover {
+    color: #A18028;
+}
+
+.header div.locale ul {
+    display: inline-flex;
+}
+
+.header div.locale a {
+    color: #FFF;
+}
+
+.header div.locale a:hover {
+    color: #A18028;
+}
+
+.header button {
+    background-color: #8C734B;
+    color: #FFF;
+    font-size: 14px;
+}
+
+
+/* .header .dropdown-menu {
+    top: 21px !important;
+    left: -30px !important;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 3px solid #A18028;
+}
+
+.header .dropdown-menu li {
+    padding-bottom: 10px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.header ul li.dropdown ul.dropdown-menu li a:hover{
+    background-color: transparent;
+    color: #A18028;
+}
+
+
+.header .dropdown-menu li:hover {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+}
+
+
+.header .dropdown-menu li a {
+    color: #000 !important;
+    display: inline-block;
+} */
+
+div.menu div.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFFF;
+    top: 65px;
+    right: 10px;
+    min-width: 160px;
+    z-index: 10;
+    border-radius: 0px 0px 6px 6px ;
+    border-top: 3px solid #A18028;
+}
+
+header li.dropdown:hover div.dropdown-content{
+    display: block;
+}
+
+/* header */
+div.main {
+    margin-top: 60px;
+}
+
+div.banner {
+    position: relative;
+    background-color: #333;
+    height: 741px;
+}
+
+div.banner div.banner_title {
+    position: absolute;
+    z-index: 10;
+    left: 220px;
+    top: 165px;
+}
+
+
+div.banner img {
+    position: absolute;
+    z-index: 10;
+    right: 0px;
+}
+
+div.banner h2 {
+    color: #AC946C;
+    font-size: 16px;
+}
+
+div.banner p.emotion {
+    color: #AC946C;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+div.banner p.content {
+    color: #FFF;
+    font-size: 60px;
+    margin-bottom: 100px;
+    width: 400px;
+}
+
+
+div.banner button {
+    background-color: #8C734B;
+    color: #FFF;
+    font-size: 17px;
+    padding: 15px 32px;
+}
+
+div.certificate {
+    margin: 80px 0px;
+}
+
+div.certificate div.gold-emotion {
+    position: relative;
+}
+
+div.certificate h2 {
+    font-size: 16px;
+}
+
+div.certificate h3 {
+    font-size: 60px;
+    width: 350px;
+}
+
+div.certificate h5 {
+    font-size: 17px;
+    padding-top: 78px;
+}
+
+div.certificate div.detail-certificate button {
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+}
+
+div.certificate div.detail-certificate img {
+    position: absolute;
+    bottom: -15px;
+    z-index: 10;
+}
+
+div.product_homepage {
+    position: relative;
+    height: 668px;
+    background-color: #E0DFDF;
+}
+
+div.product_homepage img {
+    position: absolute;
+    z-index: 10px;
+    top: -445px;
+    left: 115px;
+}
+
+div.product_homepage div.limited-edition {
+    padding: 130px;
+}
+
+
+div.product_homepage h2 {
+    width: 250px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+div.product_homepage h3 {
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+
+div.product_homepage h5 {
+    width: 290px;
+    font-size: 17px;
+}
+
+div.product_homepage button {
+    margin-top: 60px;
+}
+
+div.gold-style {
+    height: 800px;
+}
+
+div.gold-style div.row {
+    padding: 100px 0px;
+}
+
+div.gold-style h3 {
+    margin-top: 150px;
+    font-style: italic;
+    font-size: 40px;
+}
+
+div.gold-style h4 {
+    font-size: 60px;
+    width: 390px;
+    margin-bottom: 140px;
+}
+
+div.life-style {
+    background-color: #000;
+}
+
+div.life-style div.container {
+    padding: 40px 0px;
+}
+
+div.life-style h2 {
+    font-size: 30px;
+}
+
+div.life-style h3 {
+    font-size: 40px;
+    color: #FFF;
+}
+
+/* footer */
+
+.footer .container {
+    padding-bottom: 90px;
+    padding-top: 15px;
+}
+
+.footer .company {
+    padding-bottom: 110px;
+}
+
+.footer h1 {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.footer p.title {
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer p.detail {
+    font-size: 14px;
+}
+
+.footer ul li {
+    width: 49px;
+    height: 49px;
+    /* display: inline-block; */
+    border: 1px solid #757575;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.footer ul li a {
+    font-size: x-large;
+    color: #DEC176;
+}
+
+.footer ul li a i {
+    padding-top: 11px;
+}
+
+
+/* footer */
+
+.active {
+    color: #A18028 !important;
+}
+
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    div.menu ul{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
