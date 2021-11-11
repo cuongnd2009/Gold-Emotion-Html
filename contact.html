@@ -13,50 +13,100 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
-        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header class="header fixed-top">
-        <div class="container">
+    <header class="fixed-top">
+        <div class="header">
             <div class="row">
-                <div class="col-lg-3 logo text-center">
+                <div class="col-lg-3 col-md-3 col-sm-5 logo">
                     <a href="/index.html">
                         <img src="/images/svg/logo.svg" alt="">
-                        <h1 class="text-center">
+                        <h1 class="text-center h4">
                             GOLD EMOTION
                             <p class="active w-4 text-center">V I E T N A M</p>
                         </h1>
                     </a>
                 </div>
-                <div class="menu col-lg-7">
+                <div class="col-lg-6 col-md-6 col-sm-2 menu">
                     <ul class="nav justify-content-center">
-                        <li class="nav-item"><a href="/index.html" class="nav-link">Trang chủ</a></li>
-                        <li class="nav-item"><a href="/gold-emotion.html" class="nav-link">Gold Emotion</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button">Sản phẩm</a>
+                        <li class="nav-item parent"><a href="/index.html" class="parent nav-link active">Trang chủ</a>
+                        </li>
+                        <li class="nav-item parent"><a href="/gold-emotion.html" class="parent nav-link">Gold
+                                Emotion</a></li>
+                        <li class="nav-item parent dropdown">
+                            <a class="parent nav-link" role="button">Sản phẩm <i class="far fa-chevron-down"></i></a>
                             <div class="dropdown-content">
-                                <a class="w-6" href="/product.html">Sâm - Panh</a>
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="/product.html" class="nav-link w-6 child">
+                                            Sâm - Panh
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/product.html" class="nav-link w-6 child">
+                                            Vang nổ
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
-                        <li class="nav-item"><a href="/gold-emotion-lux.html" class="nav-link">Gold Emotion Lux</a></li>
-                        <li class="nav-item"><a href="/cooperate.html" class="nav-link">Hợp tác</a></li>
-                        <li class="nav-item"><a href="/contact.html" class="nav-link active">Liên Hệ</a></li>
+                        <li class="parent nav-item"><a href="/gold-emotion-lux.html" class="parent nav-link">Gold
+                                Emotion Lux</a></li>
+                        <li class="parent nav-item"><a href="/cooperate.html" class="parent nav-link">Hợp tác</a></li>
+                        <li class="parent nav-item"><a href="/contact.html" class="parent nav-link">Liên Hệ</a></li>
                     </ul>
                 </div>
-
-                <div class="col-lg-2 locale text-center">
-                    <ul class="nav justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-5 locale">
+                    <ul class="language nav">
+                        <li><a href="#" class="nav-link px-2 active">VN</a></li>
+                        <li><a href="#" class="nav-link px-2">EN</a></li>
+                    </ul>
+                    <button class="btn">SỐ HOTLINE</button>
+                    <span id="nav_res_btn">
+                        <a type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <i class="fal fa-bars fa-2x text-green"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--right-->
+        <div class="menu-right">
+            <div class="menu-right__inner">
+                <div class="menu-right__close"><i class="fal fa-times"></i></div>
+                <ul class="menu-right__nav">
+                    <li><a href="index.html" class="active">Trang chủ</a></li>
+                    <li><a href="/gold-emotion.html">Gold Emotion</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#collapseMenuRight">
+                            Sản phẩm <i class="far fa-chevron-down"></i>
+                        </a>
+                        <div class="collapse ml-2" id="collapseMenuRight">
+                            <ul>
+                                <li><a href="">Sâm - Panh</a></li>
+                                <li><a href="">Vang nổ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/gold-emotion-lux.html">Gold Emotion Lux</a></li>
+                    <li><a href="/cooperate.html">Hợp tác</a></li>
+                    <li><a href="/contact.html">Liên Hệ</a></li>
+                </ul>
+                <div class="menu-right__bottom">
+                    <ul>
                         <li><a href="#" class="nav-link px-2 active">VN</a></li>
                         <li><a href="#" class="nav-link px-2">EN</a></li>
                     </ul>
                     <button class="btn">SỐ HOTLINE</button>
                 </div>
-
             </div>
         </div>
+        <!--right-->
     </header>
 
     <div class="main">
@@ -161,9 +211,8 @@
 </body>
 
 </html>
-<script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+
 <script>
     $( document ).ready(function() {
         $('#show-modal').click(() => {
