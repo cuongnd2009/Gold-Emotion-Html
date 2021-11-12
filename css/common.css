@@ -42,7 +42,7 @@ a {
 button.default {
     background-color: #000000;
     color: #FFF;
-    padding: 15px 30px;
+    padding: 10px 50px;
     border-radius: 6px;
 }
 
@@ -261,10 +261,6 @@ div.certificate {
     margin: 80px 0px;
 }
 
-div.certificate div.gold-emotion {
-    position: relative;
-}
-
 div.certificate h2 {
     font-size: 16px;
 }
@@ -276,32 +272,29 @@ div.certificate h3 {
 
 div.certificate h5 {
     font-size: 17px;
-    padding-top: 78px;
+    padding-top: 50px;
 }
 
-div.certificate div.detail-certificate button {
-    position: absolute;
-    bottom: 0px;
-    z-index: 10;
+div.certificate div.detail-certificate {
+    position: relative;
 }
 
-div.certificate div.detail-certificate img {
+div.certificate div.detail-certificate button{
     position: absolute;
-    bottom: -15px;
-    z-index: 10;
+    bottom: 13px;
 }
 
 div.product_homepage {
     position: relative;
-    height: 668px;
+    height: 550px;
     background-color: #E0DFDF;
 }
 
 div.product_homepage img {
     position: absolute;
     z-index: 10px;
-    top: -445px;
-    left: 115px;
+    top: -360px;
+    left: 0px;
 }
 
 div.product_homepage div.limited-edition {
@@ -330,10 +323,6 @@ div.product_homepage button {
     margin-top: 60px;
 }
 
-div.gold-style {
-    height: 800px;
-}
-
 div.gold-style div.row {
     padding: 100px 0px;
 }
@@ -344,10 +333,14 @@ div.gold-style h3 {
     font-size: 40px;
 }
 
+div.gold-style  div.limited-edition{
+    padding: 40px;
+}
+
 div.gold-style h4 {
     font-size: 60px;
     width: 390px;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 
 div.life-style {
