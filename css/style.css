@@ -204,6 +204,145 @@ div.timeline div.card-body {
 }
 /* timeline */
 
+/* product */
+div.product {
+    padding-top: 40px;
+}
+div.product div.list-menu {
+    background-color: #F3F3F3;
+    padding: 10px 30px;
+}
+
+div.product div.list-menu ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+div.product div.list-menu ul li{
+    padding: 10px;
+}
+
+div.product div.list-menu ul li a:hover{
+    border-bottom: 2px solid #8C734B;
+}
+
+
+div.product div.list-menu ul li a{
+    color: #000;
+    text-transform: uppercase;
+}
+div.product div.col-lg-6 {
+    margin-bottom: 28px;
+}
+div.product div.card{
+    background-color: #F3F3F3;
+    height: auto;
+}
+
+div.product div.card{
+    background-color: #F3F3F3;
+}
+
+div.product div.card img{ 
+    width: 65%;
+    height: 400px;
+    margin: 0px auto;
+}
+
+div.product div.card div.card-body{ 
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+div.product div.card button.view-product {
+    background-color: #8C734B;
+    color: #FFF;
+    padding: 15px 100px;
+}
+
+/* product */
+
+
+/* gold-emotion-lux */
+
+div.banner-gold-emotion-lux {
+    margin-bottom: 30px;
+}
+
+div.slider-gold-emonotion-lux div.slider-content {
+    padding: 0px;
+    height: 500px;
+    color: #FFF;
+}
+
+div.slider-gold-emonotion-lux div.row{
+    margin-bottom: 30px;
+}
+
+div.slider-gold-emonotion-lux img{
+    height: 500px;
+}
+
+div.slider-gold-emonotion-lux h3{
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+div.slider-gold-emonotion-lux h2{
+    padding-top: 40px;
+    color: #000;
+}
+
+div.slider-gold-emonotion-lux h3.cs-one{
+    padding: 80px 130px;
+}
+
+div.slider-gold-emonotion-lux h3.cs-tow{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+div.slider-gold-emonotion-lux p{
+    width: 80%;
+    margin: 0px auto;
+}
+div.slider-gold-emonotion-lux div.bg-black{
+    background-color: #000;
+}
+
+div.slider-gold-emonotion-lux div.bg-gold{
+    background-color: #8C734B;
+}
+
+div.slider-gold-emonotion-lux button{
+    margin: 80px 150px;
+    padding: 10px 45px;
+}
+
+div.slider-gold-emonotion-lux div.bg-black button.warning-btn{
+    background-color: #8C734B;
+    color: #FFF;
+}
+
+/* gold-emotion-lux */
+/* cooperate */
+div.cooperate{
+    background-color: #C4C4C4;
+    padding: 80px 100px 40px 100px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+div.cooperate h5{
+    padding-bottom: 50px;
+}
+
+div.cooperate p.post-scr{
+    padding-top: 250px;
+}
+/* cooperate */
+
 /* contact */
 div.contact{
     padding-top: 40px;

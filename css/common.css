@@ -207,7 +207,7 @@ div.icon-menu-right {
 }
 /* header */
 div.main {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 div.banner {
@@ -376,6 +376,10 @@ div.life-style h3 {
 
 .footer .company {
     padding-bottom: 110px;
+}
+
+.footer div.address {
+    padding-left: 15px;
 }
 
 .footer h1 {
