@@ -15,7 +15,6 @@ body {
 
 div.gold-emotion-content {
     background-color: #1D1D1D;
-    height: 440px;
     color: #FFF;
 }
 
@@ -29,7 +28,7 @@ div.gold-emotion-content h3 {
 
 div.gold-emotion-content p {
     padding-bottom: 30px;
-    width: 830px;
+    width: 65%;
     margin: 0px auto;
 }
 
@@ -37,7 +36,6 @@ div.trademark {
     margin-top: 40px;
     background: url('/images/trademark-bg.png') no-repeat;
     background-size: 100%;
-    height: 890px;
 }
 
 div.trademark h3 {
@@ -123,6 +121,7 @@ div.timeline::after {
     background-color: inherit;
     width: 50%;
 }
+
 .timeline-container-first::after {
     content: '';
     position: absolute;
@@ -134,6 +133,7 @@ div.timeline::after {
     border-radius: 50%;
     z-index: 1;
 }
+
 div.timeline .timeline-container {
     padding: 10px 40px;
     position: relative;
@@ -202,54 +202,58 @@ div.timeline div.card-body {
     background-color: #F3F3F3;
     padding: 40px;
 }
+
 /* timeline */
 
 /* product */
 div.product {
     padding-top: 40px;
 }
+
 div.product div.list-menu {
     background-color: #F3F3F3;
     padding: 10px 30px;
 }
 
-div.product div.list-menu ul{
+div.product div.list-menu ul {
     list-style: none;
     padding-left: 0px;
 }
 
-div.product div.list-menu ul li{
+div.product div.list-menu ul li {
     padding: 10px;
 }
 
-div.product div.list-menu ul li a:hover{
+div.product div.list-menu ul li a:hover {
     border-bottom: 2px solid #8C734B;
 }
 
 
-div.product div.list-menu ul li a{
+div.product div.list-menu ul li a {
     color: #000;
     text-transform: uppercase;
 }
+
 div.product div.col-lg-6 {
     margin-bottom: 28px;
 }
-div.product div.card{
+
+div.product div.card {
     background-color: #F3F3F3;
     height: auto;
 }
 
-div.product div.card{
+div.product div.card {
     background-color: #F3F3F3;
 }
 
-div.product div.card img{ 
+div.product div.card img {
     width: 65%;
     height: 400px;
     margin: 0px auto;
 }
 
-div.product div.card div.card-body{ 
+div.product div.card div.card-body {
     padding-top: 0px;
     padding-bottom: 30px;
 }
@@ -275,85 +279,141 @@ div.slider-gold-emonotion-lux div.slider-content {
     color: #FFF;
 }
 
-div.slider-gold-emonotion-lux div.row{
+div.slider-gold-emonotion-lux div.row {
     margin-bottom: 30px;
 }
 
-div.slider-gold-emonotion-lux img{
+div.slider-gold-emonotion-lux img {
     height: 500px;
 }
 
-div.slider-gold-emonotion-lux h3{
+div.slider-gold-emonotion-lux h3 {
     width: 80%;
     margin: 0px auto;
 }
 
 
-div.slider-gold-emonotion-lux h2{
+div.slider-gold-emonotion-lux h2 {
     padding-top: 40px;
     color: #000;
 }
 
-div.slider-gold-emonotion-lux h3.cs-one{
+div.slider-gold-emonotion-lux h3.cs-one {
     padding: 80px 130px;
 }
 
-div.slider-gold-emonotion-lux h3.cs-tow{
+div.slider-gold-emonotion-lux h3.cs-tow {
     padding-top: 10px;
     padding-bottom: 60px;
 }
 
-div.slider-gold-emonotion-lux p{
+div.slider-gold-emonotion-lux p {
     width: 80%;
     margin: 0px auto;
 }
-div.slider-gold-emonotion-lux div.bg-black{
+
+div.slider-gold-emonotion-lux div.bg-black {
     background-color: #000;
 }
 
-div.slider-gold-emonotion-lux div.bg-gold{
+div.slider-gold-emonotion-lux div.bg-gold {
     background-color: #8C734B;
 }
 
-div.slider-gold-emonotion-lux button{
+div.slider-gold-emonotion-lux button {
     margin: 80px 150px;
     padding: 10px 45px;
 }
 
-div.slider-gold-emonotion-lux div.bg-black button.warning-btn{
+div.slider-gold-emonotion-lux div.bg-black button.warning-btn {
     background-color: #8C734B;
     color: #FFF;
 }
 
 /* gold-emotion-lux */
 /* cooperate */
-div.cooperate{
+div.cooperate {
     background-color: #C4C4C4;
     padding: 80px 100px 40px 100px;
     margin-top: 100px;
     margin-bottom: 40px;
 }
 
-div.cooperate h5{
+div.cooperate h5 {
     padding-bottom: 50px;
 }
 
-div.cooperate p.post-scr{
+div.cooperate p.post-scr {
     padding-top: 250px;
 }
+
 /* cooperate */
 
+/* productc3 */
+
+div.product_c3 {
+    margin-bottom: 40px;
+}
+
+div.product_c3 div.image_c3 img {
+    width: 375px;
+    height: 485px;
+}
+
+div.product_c3 div.slider_c3 {
+    width: 375px;
+    height: 273px;
+}
+
+div.product_c3 div.productc3_content {
+    background-color: #8C734B;
+    padding: 40px 20px;
+    position: relative;
+    /* margin: 0px 15px; */
+}
+
+div.product_c3 div.productc3_content h2 {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+div.product_c3 div.productc3_content h2 strong {
+    color: #000;
+}
+
+div.product_c3 div.productc3_content div.description_c3 p {
+    color: #FFF;
+    font-size: 17px;
+}
+
+div.product_c3 div.productc3_content div.order {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+}
+
+div.product_c3 div.productc3_content button {
+    color: #FFF;
+    font-size: 17px;
+    background-color: #000;
+    padding: 8px 100px;
+}
+
+/* productc3 */
+
 /* contact */
-div.contact{
+div.contact {
     padding-top: 40px;
 }
 
-div.contact p{
+div.contact p {
     width: 600px;
     margin: 0px auto;
 }
 
-div.contact button{
+div.contact button {
     display: block;
     width: 190px;
     margin: 0px auto;
@@ -361,30 +421,31 @@ div.contact button{
     background-color: #8C734B;
 }
 
-div#form-contact .modal-content{
-    border-radius: 15px ;
+div#form-contact .modal-content {
+    border-radius: 15px;
     border: 3px solid #8C734B;
 }
 
-div#form-contact .modal-content .modal-header{
+div#form-contact .modal-content .modal-header {
     border-bottom: none;
     padding: 30px 0px 0px 18px;
 }
 
-div#form-contact .modal-content .modal-footer{
+div#form-contact .modal-content .modal-footer {
     border-top: none;
 }
 
-div#form-contact .modal-content .modal-footer button{
+div#form-contact .modal-content .modal-footer button {
     padding: 3px 40px;
 }
 
-div#form-contact .modal-content .modal-footer button.btn-warning{
+div#form-contact .modal-content .modal-footer button.btn-warning {
     color: #FFF;
     background-color: #8C734B;
 }
 
 .modal-backdrop {
     background-color: transparent;
- }
+}
+
 /* contact */
