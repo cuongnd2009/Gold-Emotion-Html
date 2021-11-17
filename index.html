@@ -119,7 +119,7 @@
                         </h2>
                         <p class="emotion w-4 noto_serif">Kiến Tạo</p>
                         <p class="content w-5 noto_serif">Một phong cách đẳng cấp</p>
-                        <button class="btn w-7">Tìm hiểu thêm</button>
+                        <a class="btn w-7" href="/gold-emotion.html">Tìm hiểu thêm</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -174,7 +174,7 @@
                             Số lượng giới hạn trên Thế Giới
                         </h5>
                         <div class="order">
-                            <button class="btn default">Đặt hàng trước</button>
+                            <button class="btn default show-modal">Đặt hàng trước</button>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                             Giá trị vàng
                         </h3>
                         <h4 class="w-5">Lối sống khoẻ & đẳng cấp</h4>
-                        <button class="btn default">Xem thêm</button>
+                        <a href="/gold-emotion.html"><button class="btn default">Xem thêm</button></a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="/images/gold-style.png" alt="">
@@ -212,6 +212,39 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="form-contact">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="w-7 fs-24">Thông tin khách hàng</h6>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 pb-3">
+                            <input type="text" class="form-control" placeholder="Họ và tên">
+                        </div>
+                        <div class="col-lg-6 pb-3">
+                            <input type="text" class="form-control" placeholder="Số điện thoại">
+                        </div>
+                        <div class="col-12 pb-3">
+                            <input type="text" class="form-control" placeholder="Địa chỉ">
+                        </div>
+                        <div class="col-12 pb-3">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="" class="form-control" cols="30" rows="5" placeholder="Ghi chú ..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-4">
+                    <button type="button" class="btn btn-warning">Gửi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
@@ -261,3 +294,10 @@
 
 </html>
 <script type="text/javascript" src="js/global.js"></script>
+<script>
+    $( document ).ready(function() {
+        $('.show-modal').click(() => {
+            $('#form-contact').modal('toggle')
+        })
+    });
+</script>

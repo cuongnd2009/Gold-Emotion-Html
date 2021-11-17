@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: NotoSerif;
-    src: url('https://fonts.googleapis.com/css?family=Noto Serif');
+    src: url('/font/NotoSerif-Regular.ttf');
 }
 
 div.gold-emotion-content {
@@ -83,6 +83,7 @@ div.release-gold-drink {
 div.release-gold-drink h5 {
     margin: 0px auto;
     width: 60%;
+    padding-bottom: 90px;
 }
 
 div.gold-value {
@@ -122,6 +123,13 @@ div.timeline::after {
     width: 50%;
 }
 
+.timeline-container-first span{
+    position: absolute;
+    z-index: 10;
+    right: -40%;
+    top: 40px;
+}
+
 .timeline-container-first::after {
     content: '';
     position: absolute;
@@ -129,13 +137,15 @@ div.timeline::after {
     height: 122px;
     right: -60px;
     background-color: #8C734B;
-    top: 30px;
+    background-image: url('/images/vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
     border-radius: 50%;
     z-index: 1;
 }
 
 div.timeline .timeline-container {
-    padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -193,8 +203,6 @@ div.timeline .right::after {
 
 /* The actual content */
 div.timeline .content {
-    padding: 20px 30px;
-    position: relative;
     border-radius: 6px;
 }
 
@@ -207,12 +215,13 @@ div.timeline div.card-body {
 
 /* product */
 div.product {
-    padding-top: 40px;
+    margin-bottom: 40px;
 }
 
 div.product div.list-menu {
     background-color: #F3F3F3;
     padding: 10px 30px;
+    height: 600px;
 }
 
 div.product div.list-menu ul {
@@ -222,12 +231,27 @@ div.product div.list-menu ul {
 
 div.product div.list-menu ul li {
     padding: 10px;
+    max-width: 270px;
+    text-align: center;
+    border-bottom: 1px solid #8C734B;
 }
 
-div.product div.list-menu ul li a:hover {
-    border-bottom: 2px solid #8C734B;
+div.product div.list-menu ul li:last-child {
+    border-bottom: none;
 }
 
+div.product div.list-menu ul li a{
+    width: 400px;
+}
+
+div.product div.list-menu ul li:hover {
+    background-color: #000;
+
+}
+
+div.product div.list-menu ul li:hover a{
+    color: #8C734B;
+}
 
 div.product div.list-menu ul li a {
     color: #000;
@@ -247,21 +271,29 @@ div.product div.card {
     background-color: #F3F3F3;
 }
 
+div.product div.card h3{
+    font-family: NotoSerif;
+}
+
+
 div.product div.card img {
     width: 65%;
-    height: 400px;
     margin: 0px auto;
 }
 
 div.product div.card div.card-body {
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding: 0px 10px 30px 10px;
 }
 
 div.product div.card button.view-product {
     background-color: #8C734B;
     color: #FFF;
     padding: 15px 100px;
+}
+div.product div.btn_product a{
+    width: 70%;
+    background-color: #8C734B;
+    color: #FFF;
 }
 
 /* product */

@@ -140,7 +140,7 @@ button.default:hover {
     color: #FFF;
     text-transform: uppercase;
     font-size: 14px;
-    padding-left: 20px;
+    padding-left: 15px;
     margin-bottom: 16px;
 }
 
@@ -259,7 +259,7 @@ div.banner p.content {
 }
 
 
-div.banner button {
+div.banner a {
     background-color: #8C734B;
     color: #FFF;
     font-size: 17px;
@@ -306,7 +306,7 @@ div.product_homepage img {
 }
 
 div.product_homepage div.limited-edition {
-    padding: 130px;
+    padding: 80px;
 }
 
 
@@ -726,4 +726,46 @@ body.menu-push {
         position: static;
     }
 
+}
+
+@media (min-width: 1036px) {
+    div.timeline .right {
+        top: -220px;
+    }
+
+    div.timeline {
+        max-height: 1100px;
+    }
+    div.timeline .left {
+        position: relative;
+        top: -390px;
+    }
+    div.timeline .content_first{
+        margin-right: 60px;
+    }
+
+    div.timeline .content_left{
+        margin-right: 115px;
+        margin-left: 18px;
+    }
+
+    div.timeline .content_right{
+        margin-left: 90px;
+    }
+
+    div.card {
+        top: 30px;
+    }
+
+    div.gold-value div.row {
+        padding: 0px 300px;
+    }
+
+    div.gold-value div.gold_value_img {
+        padding: 0px 15px;
+    }
+    .header div.menu ul li.dropdown {
+        width: 175px;
+    }
+    
 }
