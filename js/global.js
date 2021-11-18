@@ -18,6 +18,13 @@ $('.menu-right__close').click(function () {
     }
 });
 
-
+/*-- chat__bottom--*/
+$('.chat-floating-actions').click(function () {
+    if ($('.chat-floating-actions').hasClass('active')) {
+        $('.chat-floating-actions').removeClass('active')
+    } else {
+        $('.chat-floating-actions').addClass('active')
+    }
+});
 
 
